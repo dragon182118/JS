@@ -7,6 +7,7 @@ function mfn () {
 function exec () {
     const valor = 'local'
     mfn()
+    mfn(valor)
 }
 
 exec()
