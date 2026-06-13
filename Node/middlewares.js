@@ -6,7 +6,7 @@ const passo1 = (ctx, next) => {
 }
 
 const passo2 = (ctx, next) => {
-    ctx.valor2 = 'mid2'
+    ctx.valor1 = 'mid2'
     next()
 }
 
